@@ -15,7 +15,7 @@ jobs:
           command: python calculator.py
 
   test:
-    working_directory: ~/calculator-circleci
+    working_directory: ~/Calculator
     docker:
       - image: cimg/python:3.11
     steps:
